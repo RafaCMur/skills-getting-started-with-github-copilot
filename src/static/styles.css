@@ -157,3 +157,29 @@ footer {
   color: #555;
   font-size: 14px;
 }
+
+.participants {
+  /* No list style for participants */
+}
+
+.participant {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
+
+.delete-btn:hover {
+  color: #b71c1c;
+}
